@@ -1,0 +1,470 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@media only screen and (min-width: 319px) {
+    .nav {
+        background-color: #4293f5;
+        background-image: linear-gradient(to right, white, white, white, #4293f5, #4293f5, #4293f5);
+        list-style: none;
+        text-align: right;
+        padding: 50px 0 30px 0;
+    }
+    
+    .nav > li {
+        display: inline-block;
+        padding-right: 5px;
+        font-size: 7px;
+        padding-top: 10px;
+        font-family: 'Myriad Pro', 'Arial';
+    }
+    
+    .nav > li > a {
+        text-decoration: none;
+        color: black;
+    }
+    
+    .nav > li > a:hover {
+        color: white;
+    }
+    
+    .logo {
+        color:#4293f5;
+        font-family: 'Calibri', 'Arial';
+        float: left;
+        padding-left: 15px;
+        font-size: 30px;
+        font-weight: bold;
+        font-style: italic;
+    }
+    
+    .logo > a {
+        text-decoration: none;
+        color: #4293f5;
+    }
+    
+    h2 {
+        font-family: 'Myriad Pro', 'Arial'; 
+        font-size: large;
+        display: block;
+        margin-top: 1.5em;
+        margin-bottom: 1em;
+        margin-left: 2em;
+        width: 80%;
+     }
+     
+     .intro {
+        font-family: 'Myriad Pro', 'Arial'; 
+        font-size: large;
+        display: block;
+        margin-top: 1em;
+        margin-bottom: 1em;
+        margin-left: 2em;
+        width: 80%;
+     }
+    
+     .access {
+        font-family: 'Myriad Pro', 'Arial'; 
+        font-size: larger;
+        display: block;
+        margin-top: 1em;
+        margin-bottom: 1em;
+        margin-left: 1.9em;
+        width: 80%;
+     }
+     
+     .alist {
+        font-family: 'Myriad Pro', 'Arial'; 
+        font-size: large;
+        font-style: oblique;
+        display: block;
+        margin-top: 1.5em;
+        margin-left: 3em;
+        margin-bottom: 2em;
+        width: 80%;
+     }
+    
+     img {
+        width: 80%;
+        height: auto;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 2em;
+        display: block;
+        border: 1px solid grey;
+    }
+    
+    footer {
+        font-size: medium;
+        font-style: italic;
+        color: black;
+        font-family: 'Myriad Pro', 'Arial';
+        background-color: #4293f5;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        bottom: 0;
+    }
+}
+
+@media only screen and (min-width: 480px) {
+    .nav {
+        background-color: #4293f5;
+        background-image: linear-gradient(to right, white, white, #4293f5, #4293f5, #4293f5);
+        list-style: none;
+        text-align: right;
+        padding: 50px 0 30px 0;
+    }
+    
+    .nav > li {
+        display: inline-block;
+        padding-right: 15px;
+        font-size: 15px;
+        padding-top: 10px;
+    }
+    
+    .nav > li > a {
+        text-decoration: none;
+        color: black;
+    }
+    
+    .nav > li > a:hover {
+        color: white;
+    }
+    
+    .logo {
+        color:#4293f5;
+        font-family: 'Calibri', 'Arial';
+        float: left;
+        padding-left: 10px;
+        font-size: 31px;
+        font-weight: bold;
+        font-style: italic;
+    }
+    
+    .logo > a {
+        text-decoration: none;
+        color: #4293f5;
+    }
+    
+    h2 {
+        font-family: 'Myriad Pro', 'Arial'; 
+        font-size: large;
+        display: block;
+        margin-top: 1.5em;
+        margin-bottom: 1em;
+        margin-left: 3em;
+        width: 80%;
+     }
+     
+     .intro {
+        font-family: 'Myriad Pro', 'Arial'; 
+        font-size: large;
+        display: block;
+        margin-top: 1em;
+        margin-bottom: 1em;
+        margin-left: 2.8em;
+        width: 80%;
+     }
+    
+     .access {
+        font-family: 'Myriad Pro', 'Arial'; 
+        font-size: larger;
+        display: block;
+        margin-top: 1em;
+        margin-bottom: 1em;
+        margin-left: 2.8em;
+        width: 80%;
+     }
+     
+     .alist {
+        font-family: 'Myriad Pro', 'Arial'; 
+        font-size: large;
+        font-style: oblique;
+        display: block;
+        margin-top: 1.5em;
+        margin-left: 4em;
+        margin-bottom: 2em;
+        width: 40%;
+     }
+    
+     img {
+        width: 80%;
+        height: auto;
+        margin-right: auto;
+        margin-left: auto;
+        display: block;
+        border: 1px solid grey;
+    }
+    
+    footer {
+        font-size: medium;
+        font-style: italic;
+        color: black;
+        font-family: 'Myriad Pro', 'Arial';
+        background-color: #4293f5;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        bottom: 0;
+        height: 5rem;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .nav {
+        background-color: #4293f5;
+        background-image: linear-gradient(to right, white, white, #4293f5, #4293f5, #4293f5);
+        list-style: none;
+        text-align: right;
+        padding: 50px 0 30px 0;
+        margin-top: 0;
+    }
+    
+    .nav > li {
+        display: inline-block;
+        padding-right: 15px;
+        font-size: 25px;
+        padding-top: 10px;
+    }
+    
+    .nav > li > a {
+        text-decoration: none;
+        color: black;
+    }
+    
+    .nav > li > a:hover {
+        color: white;
+    }
+    
+    .logo {
+        color:#4293f5;
+        font-family: 'Calibri', 'Arial';
+        float: left;
+        padding-left: 25px;
+        font-size: 40px;
+        font-weight: bold;
+        font-style: italic;
+    }
+    
+    .logo > a {
+        text-decoration: none;
+        color: #4293f5;
+    }
+    
+    h2 {
+        font-family: 'Myriad Pro', 'Arial'; 
+        font-size: xx-large;
+        display: block;
+        margin-top: 1.5em;
+        margin-bottom: 1em;
+        margin-left: 2.9em;
+        width: 80%;
+     }
+     
+     .intro {
+        font-family: 'Myriad Pro', 'Arial'; 
+        font-size: larger;
+        display: block;
+        margin-top: 1em;
+        margin-bottom: 1em;
+        margin-left: 4.8em;
+        width: 80%;
+     }
+    
+     .access {
+        font-family: 'Myriad Pro', 'Arial'; 
+        font-size: larger;
+        display: block;
+        margin-top: 1em;
+        margin-bottom: 1em;
+        margin-left: 4.8em;
+        width: 80%;
+     }
+     
+     .alist {
+        font-family: 'Myriad Pro', 'Arial'; 
+        font-size: large;
+        font-style: oblique;
+        display: block;
+        margin-top: 1.5em;
+        margin-left: 6em;
+        margin-bottom: 2em;
+        width: 40%;
+     }
+    
+     img {
+        width: 80%;
+        height: auto;
+        margin-right: auto;
+        margin-left: auto;
+        display: block;
+        border: 1px solid grey;
+    }
+    
+    footer {
+        font-size: larger;
+        font-style: italic;
+        color: black;
+        font-family: 'Myriad Pro', 'Arial';
+        background-color: #4293f5;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        bottom: 0;
+        height: 5rem;
+    }
+    
+}
+
+
+@media only screen and (min-width: 1700px) {
+    .nav {
+        background-color: #4293f5;
+        background-image: linear-gradient(to right, white, white, #4293f5, #4293f5, #4293f5);
+        list-style: none;
+        text-align: right;
+        padding: 50px 0 30px 0;
+        margin-top: 0;
+    }
+    
+    .nav > li {
+        display: inline-block;
+        padding-right: 40px;
+        font-size: 30px;
+        padding-top: 20px;
+    }
+    
+    .nav > li > a {
+        text-decoration: none;
+        color: black;
+    }
+    
+    .nav > li > a:hover {
+        color: white;
+    }
+    
+    .logo {
+        color:#4293f5;
+        font-family: 'Calibri', 'Arial';
+        float: left;
+        padding-left: 60px;
+        font-size: 50px;
+        font-weight: bold;
+        font-style: italic;
+    }
+    
+    .logo > a {
+        text-decoration: none;
+        color: #4293f5;
+    }
+    
+    h2 {
+        font-family: 'Myriad Pro', 'Arial'; 
+        font-size: xx-large;
+        display: block;
+        margin-top: 3em;
+        margin-bottom: 1em;
+        margin-left: 2.9em;
+        margin-right: auto;
+        width: 40%;
+     }
+
+     .intro {
+        font-family: 'Myriad Pro', 'Arial'; 
+        font-size: larger;
+        display: block;
+        width: 40%;
+        height: auto;
+        margin-right: auto;
+        margin-left: 4.8em;
+     }
+    
+     .access {
+        font-family: 'Myriad Pro', 'Arial'; 
+        font-size: larger;
+        display: block;
+        width: 40%;
+        height: auto;
+        margin-right: auto;
+        margin-left: 4.8;
+     }
+     
+     .alist {
+        font-family: 'Myriad Pro', 'Arial'; 
+        font-size: large;
+        font-style: oblique;
+        display: block;
+        margin-left: 4.8;
+        margin-right: auto;
+        width: 40%;
+        height: auto;
+     }
+    
+     img {
+        width: 800px;
+        height: 650px;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 1.7em;
+        margin-bottom: 1.7em;
+        position: absolute;
+        right: 6%;
+        top: 15%;
+        border: 1px solid grey;
+    }
+
+    p {
+        margin: 24px 0;
+        line-height: 2;
+    }
+
+    .cookie-container {
+        position: fixed;
+        bottom: -100%;
+        left: 0;
+        right: 0;
+        background: #427ef5;
+        color: white; 
+        padding: 0 32px;
+        
+
+
+        transition: 400ms;
+    }
+
+.cookie-container.active {
+    bottom: 0;
+}
+
+    .cookie-btn {
+        background: orange;
+        border: 0;
+        color: white;
+        padding: 12px 48px;
+        font-size: 18px;
+        margin-bottom: 100px;
+        border-radius: 8px;
+        cursor: pointer;
+    }
+    
+    footer {
+        font-size: larger;
+        font-style: italic;
+        color: black;
+        font-family: 'Myriad Pro', 'Arial';
+        background-color: #4293f5;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        width: 100%;
+        bottom: 0;
+        height: 5rem;
+    }
+    
+}

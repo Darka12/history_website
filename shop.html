@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Shop Page</title>
+        <!-- Link to CSS file that adds styling to the different parts of the HTML file -->
+        <link rel="stylesheet" type="text/css" href="shopstyle.css">
+        <!-- Link to JS file that adds functionality to the product list and shopping cart -->
+        <script src="shopbasket.js" async></script>
+        
+    </head>
+
+<body>
+    <!-- Navigation Bar with their links to other pages on the website-->
+    <ul class="nav">
+        <div class="logo">
+            <a href="home.html">PHistory</a>
+        </div>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="history.html">History</a></li>
+        <li><a href="shop.html">Shop</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="legal.html">Legal</a></li>
+    </ul>
+
+   <!-- Main page content (responsive table for both the product list and the shopping cart list so when a new product is added to the product list/shopping cart through the JS file then the tables will automatically resize accordingly)-->
+    <div class="container">
+        <div class="row mt-4">
+            <div class="col-12">
+
+                <div class="row">
+                    <div class="col-12">
+                        <h3>Products</h3>
+                    </div>
+                </div>
+                <div class="table-responsive">
+                    <table class="table table-striped table-hover">
+                        <thead>
+                            <tr>
+                                <th>Name</th>
+                                <th>Price</th>
+                                <th>Action</th>
+                            </tr>
+                        </thead>
+                        <tbody id="products">
+                            <tr>
+                                <td>Milk</td>
+                                <td>$10</td>
+                                <td><button class="btn btn-sucess">Add To Cart</button></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="row">
+                    <div class="col-10">
+                        <h3>Cart</h3>
+                    </div>
+                    <div class="col-2">
+                        <b id="total-price">Total: £0</b>
+                    </div>
+                </div>
+                <div class="table-responsive">
+                    <table class="table table-striped table-hover">
+                        <thead>
+                            <tr>
+                                <th>Name</th>
+                                <th>Price</th>
+                                <th>Quantity</th>
+                                <th>Total</th>
+                                <th>Action</th>
+                            </tr>
+                        </thead>
+                        <tbody id="cart-items">
+                            <tr>
+                                <td>Example</td>
+                                <td>£10</td>
+                                <td>1</td>
+                                <td>£10</td>
+                                <td><button class="btn btn-danger">Remove From Cart</button></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    
+<!-- Website Footer Banner-->
+    <footer id="footer">
+        <p>© Oliver Horwood</p>
+    </footer>
+
+    </body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Contact Page</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Link to CSS file that adds styling to the different parts of the HTML file -->
+        <link rel="stylesheet" type="text/css" href="contactstyle.css">
+    </head>
+
+<body>
+    <!-- Navigation Bar with their links to other pages on the website-->
+    <ul class="nav">
+        <div class="logo">
+            <a href="home.html">PHistory</a>
+        </div>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="history.html">History</a></li>
+        <li><a href="shop.html">Shop</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="legal.html">Legal</a></li>
+    </ul>
+
+    <!-- Main content of the page (contact form)-->
+    <div class="container">
+        <h2>Contact Us</h2>
+        <form action="https://formsubmit.co/10789605@cityplym.ac.uk" method="POST">
+      
+          <input type="text" id="name" name="fullname" placeholder="Enter Full Name..." required>
+
+          <input type="hidden" name="_next" value="https://plymouthblitz.netlify.app/mconfirm.html">
+      
+          <input type="text" id="email" name="email" placeholder="Enter Email Address..." required>
+
+          <textarea id="message" name="message" placeholder="Enter Message..." style="height:200px" required></textarea>
+      
+          <input type="submit" name="submit" value="Send Message">
+      
+        </form>
+      </div>
+
+<!-- Website Footer Banner-->
+    <footer id="footer">
+        <p>© Oliver Horwood</p>
+    </footer>
+    
+    </body>
+</html>

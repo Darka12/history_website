@@ -1,0 +1,267 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@media only screen and (min-width: 319px) {
+    .nav {
+        background-color: #4293f5;
+        background-image: linear-gradient(to right, white, white, white, #4293f5, #4293f5, #4293f5);
+        list-style: none;
+        text-align: right;
+        padding: 50px 0 30px 0;
+    }
+    
+    .nav > li {
+        display: inline-block;
+        padding-right: 5px;
+        font-size: 7px;
+        padding-top: 10px;
+        font-family: 'Myriad Pro', 'Arial';
+    }
+    
+    .nav > li > a {
+        text-decoration: none;
+        color: black;
+    }
+    
+    .nav > li > a:hover {
+        color: white;
+    }
+    
+    .logo {
+        color:#4293f5;
+        font-family: 'Calibri', 'Arial';
+        float: left;
+        padding-left: 15px;
+        font-size: 30px;
+        font-weight: bold;
+        font-style: italic;
+    }
+    
+    .logo > a {
+        text-decoration: none;
+        color: #4293f5;
+    }
+
+    h2 {
+        font-family:'Arial';
+        font-size: 15px;
+        margin-top: 15em;
+        margin-bottom: 3em;
+        margin-left: 2em;
+        margin-right: 2em;
+        text-align: center;
+    }
+    
+    footer {
+        font-size: medium;
+        font-style: italic;
+        color: black;
+        font-family: 'Myriad Pro', 'Arial';
+        background-color: #4293f5;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: fixed;
+        width: 100%;
+        bottom: 0;
+        height: 5rem;
+    }
+}
+
+@media only screen and (min-width: 480px) {
+    .nav {
+        background-color: #4293f5;
+        background-image: linear-gradient(to right, white, white, #4293f5, #4293f5, #4293f5);
+        list-style: none;
+        text-align: right;
+        padding: 50px 0 30px 0;
+    }
+    
+    .nav > li {
+        display: inline-block;
+        padding-right: 15px;
+        font-size: 15px;
+        padding-top: 10px;
+    }
+    
+    .nav > li > a {
+        text-decoration: none;
+        color: black;
+    }
+    
+    .nav > li > a:hover {
+        color: white;
+    }
+    
+    .logo {
+        color:#4293f5;
+        font-family: 'Calibri', 'Arial';
+        float: left;
+        padding-left: 10px;
+        font-size: 31px;
+        font-weight: bold;
+        font-style: italic;
+    }
+    
+    .logo > a {
+        text-decoration: none;
+        color: #4293f5;
+    }
+
+    h2 {
+        font-family:'Arial';
+        font-size: x-large;
+        text-align: center;
+        margin-top: 12em;
+        margin-bottom: auto;
+    }
+    
+    footer {
+        font-size: medium;
+        font-style: italic;
+        color: black;
+        font-family: 'Myriad Pro', 'Arial';
+        background-color: #4293f5;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        bottom: 0;
+        height: 5rem;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .nav {
+        background-color: #4293f5;
+        background-image: linear-gradient(to right, white, white, #4293f5, #4293f5, #4293f5);
+        list-style: none;
+        text-align: right;
+        padding: 50px 0 30px 0;
+        margin-top: 0;
+    }
+    
+    .nav > li {
+        display: inline-block;
+        padding-right: 15px;
+        font-size: 25px;
+        padding-top: 10px;
+    }
+    
+    .nav > li > a {
+        text-decoration: none;
+        color: black;
+    }
+    
+    .nav > li > a:hover {
+        color: white;
+    }
+    
+    .logo {
+        color:#4293f5;
+        font-family: 'Calibri', 'Arial';
+        float: left;
+        padding-left: 25px;
+        font-size: 40px;
+        font-weight: bold;
+        font-style: italic;
+    }
+    
+    .logo > a {
+        text-decoration: none;
+        color: #4293f5;
+    }
+
+    h2 {
+        font-family:'Arial';
+        font-size: x-large;
+        text-align: center;
+        margin-top: 12em;
+        margin-bottom: auto;
+    }
+    
+    footer {
+        font-size: larger;
+        font-style: italic;
+        color: black;
+        font-family: 'Myriad Pro', 'Arial';
+        background-color: #4293f5;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: fixed;
+        width: 100%;
+        bottom: 0;
+        height: 5rem;
+    }
+    
+}
+
+
+@media only screen and (min-width: 1700px) {
+    .nav {
+        background-color: #4293f5;
+        background-image: linear-gradient(to right, white, white, #4293f5, #4293f5, #4293f5);
+        list-style: none;
+        text-align: right;
+        padding: 50px 0 30px 0;
+        margin-top: 0;
+    }
+    
+    .nav > li {
+        display: inline-block;
+        padding-right: 40px;
+        font-size: 30px;
+        padding-top: 20px;
+    }
+    
+    .nav > li > a {
+        text-decoration: none;
+        color: black;
+    }
+    
+    .nav > li > a:hover {
+        color: white;
+    }
+    
+    .logo {
+        color:#4293f5;
+        font-family: 'Calibri', 'Arial';
+        float: left;
+        padding-left: 60px;
+        font-size: 50px;
+        font-weight: bold;
+        font-style: italic;
+    }
+    
+    .logo > a {
+        text-decoration: none;
+        color: #4293f5;
+    }
+
+    h2 {
+        font-family:'Arial';
+        font-size: x-large;
+        text-align: center;
+        margin-top: 12em;
+        margin-bottom: auto;
+    }
+    
+    footer {
+        font-size: larger;
+        font-style: italic;
+        color: black;
+        font-family: 'Myriad Pro', 'Arial';
+        background-color: #4293f5;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: fixed;
+        width: 100%;
+        bottom: 0;
+        height: 5rem;
+    }
+    
+}
